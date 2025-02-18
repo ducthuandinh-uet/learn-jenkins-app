@@ -29,8 +29,7 @@ pipeline {
             }
             steps{
                 sh '''
-                    npm test
-                    a
+                    npm test -- a
                 '''
             }
         }
